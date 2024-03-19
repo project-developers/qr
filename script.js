@@ -36,7 +36,7 @@ const downloadButton = document.getElementById('download-button');
 
 function downloadQRCode() {
     // Get the QR code element
-    var qrcode = document.getElementById("qrcode");
+    var qrcode = document.getElementById("qr-code");
     var imgData = qrcode.src;
     // Creates a link and triggers download
     var link = document.createElement("a");
